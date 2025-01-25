@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-os.getenv("GROQ_API_KEY")
+
 
 class Chain:
     def __init__(self):
