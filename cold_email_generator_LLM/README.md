@@ -1,1 +1,3 @@
 "# Cold Email Generator" 
+
+Credits
