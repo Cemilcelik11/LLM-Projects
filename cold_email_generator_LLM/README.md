@@ -14,5 +14,6 @@ Your company employs software engineers with different specialities like Python,
   - We store Techstack information with related portfolio URLs in chromadb vector store.
   - Afterwards we prepare another prompt, this time for writing the e-mail itself, the inputs to the prompt are the job description text and the portfolio links.
   - We show the generated e-mail in Streamlit.
+  - For inference, we use GroqCloud because it is fast.
     ![image](https://github.com/user-attachments/assets/c61ebe6d-1780-4e26-b445-7ec38431ec75)
 
