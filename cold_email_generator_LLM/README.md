@@ -9,6 +9,7 @@ Your company employs software engineers with different specialities like Python,
 ## Step-by-Step Implementation
 ### 1.Data Preparation and Storage
 **Process**:
--We get the text for a specific job posting of a target company by using WebBaseLoader of langchain_community, it is basically web scraping.
--We then feed this text to PromptTemplate and then JsonOutputParser of langchain_core to extract role, experience, skills, and job description info in JSON format.
--We store Techstack information with related portfolio URLs in chromadb vector store. 
+  - We get the text for a specific job posting of a target company by using WebBaseLoader of langchain_community, it is basically web scraping.
+  - We then feed this text to PromptTemplate and then JsonOutputParser of langchain_core to extract role, experience, skills, and job description info in JSON format.
+  - We store Techstack information with related portfolio URLs in chromadb vector store. 
+  
