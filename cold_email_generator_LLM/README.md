@@ -12,4 +12,7 @@ Your company employs software engineers with different specialities like Python,
   - We get the text for a specific job posting of a target company by using WebBaseLoader of langchain_community, it is basically web scraping.
   - We then feed this text to a prompt using PromptTemplate and then JsonOutputParser of langchain_core to extract role, experience, skills, and job description info in JSON format.
   - We store Techstack information with related portfolio URLs in chromadb vector store.
-  - Afterwards we prepare another prompt, this time for writing the e-mail itself, the inputs to the prompt are the job description text and the portfolio links. 
+  - Afterwards we prepare another prompt, this time for writing the e-mail itself, the inputs to the prompt are the job description text and the portfolio links.
+  - We show the generated e-mail in Streamlit.
+    ![image](https://github.com/user-attachments/assets/c61ebe6d-1780-4e26-b445-7ec38431ec75)
+
