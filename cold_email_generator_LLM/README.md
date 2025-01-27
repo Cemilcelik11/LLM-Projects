@@ -7,8 +7,6 @@ This Github repo is prepared by coding alongside the video of the YouTube channe
 Your company employs software engineers with different specialities like Python, Java, Golang etc. As a marketing employee, you have some other companies in target by checking for which roles they hire. Then you send them a cold e-mail or LinkedIn DM expressing the capabilities of your company to provide their needs. You explain your company, your employees and the project portfolios your comapny made so far. All you have to do is to put the URL of that job posting you want to send a cold e-mail for into our searchbar.   
 
 ## Step-by-Step Implementation
-### 1.Data Preparation and Storage
-**Process**:
   - We get the text for a specific job posting of a target company by using WebBaseLoader of langchain_community, it is basically web scraping.
   - We then feed this text to a prompt using PromptTemplate and then JsonOutputParser of langchain_core to extract role, experience, skills, and job description info in JSON format.
   - We store Techstack information with related portfolio URLs in chromadb vector store.
