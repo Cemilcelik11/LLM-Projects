@@ -1,6 +1,6 @@
 # 📄 PDF Chat Assistant
 
-A conversational AI that answers questions about PDF documents using LLMs.
+A conversational AI that answers questions about PDF documents using **deepseek-r1-distill-llama-70b**.
 
 ## 🚀 Features
 - Upload & process PDF documents
@@ -13,7 +13,7 @@ A conversational AI that answers questions about PDF documents using LLMs.
 |------|---------|
 | **Streamlit** | Web UI framework for rapid prototyping |
 | **LangChain** | LLM orchestration & document processing |
-| **Groq API** | Ultra-fast LLM inference engine (Deepseek-R1-70B) |
+| **Groq API** | Ultra-fast LLM inference engine (deepseek-r1-distill-llama-70b) |
 | **Hugging Face** | Sentence transformers for text embeddings |
 | **InMemoryVectorStore** | Instant vector similarity search |
 
