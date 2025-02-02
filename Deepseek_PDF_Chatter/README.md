@@ -1,6 +1,6 @@
 # 📄 PDF Chat Assistant
 
-A conversational AI that answers questions about PDF documents using **deepseek-r1-distill-llama-70b**.
+A conversational AI that answers questions about PDF documents using **deepseek-r1-distill-llama-70b**. DeepSeek-R1-Distill-Llama-70B is a  distilled version of the original model DeepSeek-R1, compressed into a 70-billion-parameter architecture based on Meta's Llama framework.  The distillation process involves training the smaller model to mimic the behavior and reasoning patterns of the larger DeepSeek-R1 model.
 
 ## 🚀 Features
 - Upload & process PDF documents
