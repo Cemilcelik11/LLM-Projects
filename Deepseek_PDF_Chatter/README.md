@@ -21,8 +21,8 @@ A conversational AI that answers questions about PDF documents using **deepseek-
 
 ### PDF Processing Pipeline
 1. **Upload** → PDF saved to `./pdfs/` directory
-2. **Text Extraction** → `PDFPlumberLoader` parses content
-3. **Chunking** → Recursive splitter creates 1000-char segments
+2. **Text Extraction** → `PDFPlumberLoader` loads PDF
+3. **Chunking** → Recursive splitter generates 1000-char segments
 4. **Embedding** → MiniLM-L6-v2 converts text to vectors
 5. **Indexing** → Stored in in-memory vector store
 
