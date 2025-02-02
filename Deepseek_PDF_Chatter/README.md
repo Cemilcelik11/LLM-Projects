@@ -31,4 +31,8 @@ A conversational AI that answers questions about PDF documents using **deepseek-
 2. Vector store finds relevant text chunks
 3. LLM generates answer using context
 4. Streamlit displays formatted response
+   ![1](https://github.com/user-attachments/assets/ed502ff0-852a-4fcf-a471-611f882d767b)
+   ![2](https://github.com/user-attachments/assets/770bfbf7-6239-4ad1-b402-52d45693d1f1)
+   ![3](https://github.com/user-attachments/assets/ace32ef7-3633-4d20-a958-1f42f6499c29)
+
 
